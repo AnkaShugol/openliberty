@@ -135,7 +135,7 @@ spec:
       serviceAccountName: open-liberty-operator
       containers:
         - name: open-liberty-operator
-          image: openliberty-operator:0.7.1
+          image: image-registry.openshift-image-registry.svc:5000/openliberty-demo/openliberty-operator:0.7.1
           command:
           - open-liberty-operator
           imagePullPolicy: Always
